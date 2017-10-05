@@ -14,6 +14,7 @@
 		BC3A3B681F7309DB00368B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3A3B661F7309DB00368B4B /* LaunchScreen.storyboard */; };
 		BC3A3B731F7309DC00368B4B /* GMNGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A3B721F7309DC00368B4B /* GMNGameTests.swift */; };
 		BC3A3B7E1F7309DC00368B4B /* GMNGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A3B7D1F7309DC00368B4B /* GMNGameUITests.swift */; };
+		BCF7413F1F75611D00A96B47 /* CountBackwards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7413E1F75611D00A96B47 /* CountBackwards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC3A3B791F7309DC00368B4B /* GMNGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMNGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3A3B7D1F7309DC00368B4B /* GMNGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMNGameUITests.swift; sourceTree = "<group>"; };
 		BC3A3B7F1F7309DC00368B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF7413E1F75611D00A96B47 /* CountBackwards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountBackwards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BC3A3B5D1F7309DB00368B4B /* AppDelegate.swift */,
 				BC3A3B5F1F7309DB00368B4B /* ViewController.swift */,
 				BC3A3B611F7309DB00368B4B /* Main.storyboard */,
+				BCF7413E1F75611D00A96B47 /* CountBackwards.swift */,
 				BC3A3B641F7309DB00368B4B /* Assets.xcassets */,
 				BC3A3B661F7309DB00368B4B /* LaunchScreen.storyboard */,
 				BC3A3B691F7309DB00368B4B /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3A3B601F7309DB00368B4B /* ViewController.swift in Sources */,
+				BCF7413F1F75611D00A96B47 /* CountBackwards.swift in Sources */,
 				BC3A3B5E1F7309DB00368B4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				BC3A3B841F7309DC00368B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3A3B851F7309DC00368B4B /* Build configuration list for PBXNativeTarget "GMNGameTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				BC3A3B871F7309DC00368B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3A3B881F7309DC00368B4B /* Build configuration list for PBXNativeTarget "GMNGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				BC3A3B8A1F7309DC00368B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
