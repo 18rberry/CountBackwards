@@ -10,6 +10,8 @@ import Foundation
 
 class CBGame{
     
+    var count = 0
+    
     func name() -> String {
         return "Count Backwards"
     }
@@ -28,29 +30,31 @@ class CBGame{
     }
     
     //see if the user wants to play again
-    func playAgain() -> String {
-        print("Do you want to play again? (y/n)")
-        let answer = readLine()
-        if let answer = answer {
-            if (answer.lowercased() != "y"){
-                return "n"
-            } else {
-                return "y"
-            }
-        }
-        return "y"
-    }
+//    func playAgain() -> String {
+//        print("Do you want to play again? (y/n)")
+//        let answer = readLine()
+//        if let answer = answer {
+//            if (answer.lowercased() != "y"){
+//                return "n"
+//            } else {
+//                return "y"
+//            }
+//        }
+//        return "y"
+//    }
     
     // runs the major of the game
     func finishGame(number: Int, interval: Int, input: Int) -> String {
         let newNumber = number - interval
-        while (input != newNumber){
+        if (input != newNumber){
+            count -= 1
             if input > newNumber{
                 return "Too high! Try again."
             } else if input < newNumber {
                 return "Too low! Try again."
             }
         }
-        return "You win!"
+        count += 1
+        return "You win! Now continue playing!"
     }
 }
